@@ -1,0 +1,36 @@
+## Welcome, help section
+
+welcome: Welcome to Good Books!
+
+opening_line: Tell me what book would you like me to find.
+
+help: You can ask Good Books for a book title or a book author.
+
+example: For example, you can ask about books by saying, "tell me about Life of Pi", or "what are some books by Yann Martel"
+
+example_for_card: For example, you can ask about books by saying, "tell me about Life of Pi", or "what are some books by Yann Martel"
+
+more_info_help: Say "more info" anytime to get the summary of the current book.
+
+bye: OK. Happy reading!
+
+## Book-related results section
+
+missing_books: Sorry, there was a problem retrieving books. Please refer the help and try again.
+
+missing_book: Sorry, there was a problem retrieving book info. Please refer the help and try again.
+
+book_result: The book {{ book.title }} is written by {{ book.author_name }} and was published in year {{ book.published }}. It
+  has an average rating of {{ book.rating }} on goodreads.com.
+
+next_book_result: You can also say "next book" to hear about the next book on the list.
+
+no_book_result: Sorry, I could not find any book.
+
+no_more_book_result: Sorry, I could not find any more books.
+
+## Card title section
+
+book_card_title: GoodBooks info about book{{':'}} {{ book.title }}
+
+help_card_title: GoodBooks help
