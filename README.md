@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Python3
   * Download Python3 for your OS from ftp server (https://www.python.org/ftp/python)
   * Install Python3
-  
+
 2. pip 3 - python package management system
    ~~~~
    yum install python-pip3
@@ -19,7 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
    pip install -r requirements.txt
    ~~~~
 
-###Steps to test the app locally:###
+##Deployment ##
+Add your goodreads developer key into goodreads.key file in the root folder of this project.
+
+###Steps to run the app locally:###
 1. Run the app using python3:
    ~~~~
    python goodbooks_app.py
