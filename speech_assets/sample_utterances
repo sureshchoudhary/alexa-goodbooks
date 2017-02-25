@@ -1,0 +1,15 @@
+GetFirstBookIntent {book_title}
+GetFirstBookIntent {book_title} by {book_author}
+GetFirstBookIntent books by {book_author}
+GetFirstBookIntent get me {book_title}
+GetFirstBookIntent get me {book_title} by {book_author}
+GetFirstBookIntent what are some books by {book_author}
+GetFirstBookIntent tell me about {book_title}
+GetFirstBookIntent tell me about {book_title} by {book_author}
+GetFirstBookIntent I wanna know books by {book_author}
+GetFirstBookIntent I wanna know about {book_title}
+
+GetNextBookIntent next book
+GetNextBookIntent skip book
+GetNextBookIntent tell me the next book
+GetNextBookIntent what’s the next book
