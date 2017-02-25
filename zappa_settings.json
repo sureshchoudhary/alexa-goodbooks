@@ -1,6 +1,6 @@
 {
     "test": {
         "s3_bucket": "alexa_s3_bucket_test",
-        "app_function": "goodreads_app.app"
+        "app_function": "goodbooks_app.app"
     }
 }
