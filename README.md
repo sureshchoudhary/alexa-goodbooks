@@ -8,10 +8,12 @@ These instructions will get you a copy of the project up and running on your loc
 1. Python3
   * Download Python3 for your OS from ftp server (https://www.python.org/ftp/python)
   * Install Python3
+  
 2. pip 3 - python package management system
    ~~~~
    yum install python-pip3
    ~~~~
+
 3. Install the modules required
    ~~~~
    pip install -r requirements.txt
@@ -22,9 +24,10 @@ These instructions will get you a copy of the project up and running on your loc
    ~~~~
    python goodbooks_app.py
    ~~~~
+
 2. Open another terminal and serve using ngrok (https://ngrok.com/download)
    ~~~~
-   ngrok http 8080
+   ./ngrok http 8080
    ~~~~
   You will obtain urls pointing to your app. Enter the https URL into your ASK Configuration -> Endpoint.
 
