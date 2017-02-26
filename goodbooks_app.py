@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask_ask import Ask, statement, question, session, request
-import datetime, re, os
+import os, sys
 
 from goodbooks_config import config
 from book_query import BookQuery
@@ -14,8 +14,18 @@ ask = Ask(app, "/")
 TOTAL = 5
 
 # Goodreads API key
-gr_api_key = open("goodreads.key","r")
-GR_API_KEY = gr_api_key.read()
+def _no_goodreads_key():
+    print("Please create a file 'goodreads.key' and add your goodreads developer key")
+    sys.exit()
+
+GR_API_KEY = ""
+try:
+    GR_API_KEY = open("goodreads.key","r").read()
+except:
+    _no_goodreads_key()
+
+if len(GR_API_KEY) < 1:
+    _no_goodreads_key()
 
 def _welcome_msg():
     welcome = render_template('welcome')
